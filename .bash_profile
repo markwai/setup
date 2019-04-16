@@ -7,10 +7,12 @@ fi
 
 # User specific environment and startup programs
 PATH=$PATH:$HOME/.local/bin:$HOME/bin
+GOPATH=$HOME/go
 
-source /Users/mwai/venv/bin/activate
+source $HOME/venv/bin/activate
 
 export PATH
-export GROWTH_PATH=/Users/mwai/OneDrive\ -\ Tesla/growth
-export PYTHONPATH=/Users/mwai/OneDrive\ -\ Tesla/growth/sots
-export GOOGLE_APPLICATION_CREDENTIALS=/Users/mwai/tesla-motors-analytics-394542d2daf8-growth.json
+export GOPATH
+# export GROWTH_PATH=/Users/mwai/OneDrive\ -\ Tesla/growth
+# export PYTHONPATH=/Users/mwai/OneDrive\ -\ Tesla/growth/sots
+# export GOOGLE_APPLICATION_CREDENTIALS=/Users/mwai/tesla-motors-analytics-394542d2daf8-growth.json
